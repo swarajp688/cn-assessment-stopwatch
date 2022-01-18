@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&family=Island+Moments&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>STOPWATCH</h1>
+      <section id="container">
+        <div>
+          <img
+            id="clock"
+            src="https://cdn-icons.flaticon.com/png/512/2408/premium/2408971.png?token=exp=1642500079~hmac=6927d8590299b4182978ad475ccfd311"
+            alt="clock-image"
+          />
+          <p class="timer">
+            <span  id="hour">00</span>:<span id="second">00</span>:<span
+              id="mili-second"
+              >00</span
+            >
+          </p>
+        </div>
+        <div id="btn-container">
+          <button class="btn" id="start">Start</button>
+          <button class="btn" id="stop">Stop</button>
+          <button class="btn" id="reset">Reset</button>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
