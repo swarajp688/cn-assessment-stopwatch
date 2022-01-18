@@ -1,7 +1,7 @@
 var second = 0;
-var hour = 0;
+var minute = 0;
 var miliSecond = 0;
-var showHour = document.getElementById("hour");
+var showMinute = document.getElementById("minute");
 var showSecond = document.getElementById("second");
 var showMilisecond = document.getElementById("mili-second");
 var startBtn = document.getElementById("start");
@@ -28,8 +28,8 @@ function startTimer() {
     showSecond.innerHTML = second;
   }
   if (second > 60) {
-    hour++;
-    showHour.innerHTML = "0" + hour;
+    minute++;
+    showMinute.innerHTML = "0" + minute;
     second = 0;
     showSecond.innerHTML = "0" + second;
     miliSecond = 0;
