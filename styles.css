@@ -50,3 +50,35 @@ h1 {
     font-size: 20px;
     color: #D95550;
 }
+  
+@keyframes half-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(45deg);
+    }
+    
+    75% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+    
+}
+@keyframes full-rotate {
+    0% {
+        transform: rotate(0deg) scale(1);
+        
+    }
+    50% {
+        transform: rotate(360deg) scale(0.1);
+    }
+    
+    100% {
+        transform: rotate(360deg) scale(1);
+        
+    }
+    
+}
